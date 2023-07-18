@@ -1,0 +1,305 @@
+/* ==================== HEADER y FOOTER ============================*/
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    margin: 0%;
+    margin-bottom: 40px;
+}
+
+#header, #footer , #secciones, #barraLogin, #barraRecuperar, #barraFinalRecuperar, #barraEditar, #barraFinalEditar, #barraNuevoAdmin, #barraFinalNuevo{
+    background-color: rgb(21, 30, 40);
+}
+
+#header table td#celIzq{
+    text-align: left;
+    padding-left: 4%;
+}
+
+#header table td#celCent{
+    text-align: center;
+    padding-left: 23%;
+}
+
+#header table td#celDer{
+    text-align: right;
+}
+
+
+.loVeo{
+    display: block;
+    visibility: visible;
+}
+
+.noLoVeo{
+    display: none;
+    visibility: hidden;
+}
+
+hr{
+    border: 2px solid blue;
+}
+
+.blanco{
+    color: white;
+}
+
+#footer, #barraFinalRecuperar, #barraFinalEditar, #barraFinalNuevo{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+/* ====================== DETALLE ========================== */
+
+#detalle #tablaExtra, #nuevaTabla, #nuevaTabla2, #nuevaTabla3{
+    padding-left: 5%;
+}
+#nuevaTabla, #nuevaTabla2, #nuevaTabla3, #tablaClass, #tablaAdmin{
+    margin-bottom: 10%;
+}
+
+div.divBotones{
+    width: 1600px;
+}
+
+.divBotones hr{
+    width: 100%;
+}
+
+#btnTablaNueva{
+    margin-left: 5%;
+}
+
+#tdGuardar{
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 18%;
+}
+
+#tablaExtra td span, #nuevaTabla td span, #nuevaTabla2 td span, #nuevaTabla3 td span{
+    padding: 10%;
+}
+
+#tablaExtra th span, #nuevaTabla th span, #nuevaTabla2 th span, #nuevaTabla3 th span{
+    padding: 2%;
+}
+/* ====================== CLASIFICACIÓN ========================== */
+
+#clasi h1{
+    text-align: center;
+}
+
+/* ======================= TABLAS =========================== */
+table{
+    width: 1600px;
+    text-align: center;
+}
+
+table td.nom{
+    width: 500px;
+}
+
+.total{
+    background-color: lightgray;
+}
+
+.editable td{
+    border: 1px solid black;
+    margin: 1%;
+    padding: 1%;
+    width: 100px;
+    font-size: 14px;
+}
+.any{
+    background-color: rgb(112, 255, 112);  
+}
+.meses, .yellow{
+    background-color: yellow;
+    padding-right: 5%;
+}
+
+#centraTrimestres{
+    text-align: center;
+    margin: auto;
+    padding-left: 2%;
+}
+
+.tablaClassi{
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+.tablaClassi td{
+    border: 1px solid black;
+    margin: 1%;
+    padding: 1%;
+    width: 100px;
+    font-size: 14px;
+}
+
+/*=========== botones borrar ==========*/
+
+#borrar, #borrar2, #borrar3, .alerta{
+    color:red;
+}
+
+button.quitaAlumno{
+    background-color: red;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border:none;
+}
+#nuevaTabla button.quitaAlumno, #nuevaTabla2 button.quitaAlumno, #nuevaTabla3 button.quitaAlumno{
+    padding-right: 1%;
+    border-radius: 50%;
+}
+
+
+/* ============ IMG ================= */
+
+#logoCabecera, #logoFooter{
+    width: 100px;
+}
+
+button.quitaAlumno{
+   background-size: 100% 100%;
+   background-repeat:no-repeat;
+   background:url(../img/equis.png);
+   background-size: cover;
+}
+
+
+/*=============== ADMIN ================== */
+
+/* LOGIN */
+
+#barraLogin, #barraRecuperar, #barraEditar, #barraNuevoAdmin{ 
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 100px;
+}
+
+#contenedorLogin, #contenedorEditar, #contenedorNuevoAdmin{
+    text-align: justify;
+    border: 1px solid black;
+    padding: 2%;
+    margin: auto;
+    margin-top: 4%;
+    width: 300px;
+}
+
+#logoLogin{
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 42%;
+    margin-top: 6%;
+}
+
+#btnIniciar, #btnAcceder, #btnCambiar, #btnNuevoAdmin{
+    background-color: rgb(216, 165, 99);
+}
+
+/* RECUPERAR CONTRASEÑA */
+
+#recupera, #formCambiaPass{
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    padding: 2%;
+}
+
+#retorno, #linkLogin{
+    width: 50px;
+    background-color: lightgray;
+    text-align: center;
+    margin:auto;
+}
+
+#retorno #retorno a, a:visited, #retorno a:link, #linkLogin a, #linkLogin a:visited, #linkLogin a:link{
+    color:black;
+}
+
+#barraFinalRecuperar, #barraFinalEditar, #barraFinalNuevo{
+    height: 100px;
+    margin-bottom: 0%;
+}
+
+/* VISTA ADMIN */
+
+#tablaAdmin td{
+    border: 1px solid black;
+}
+
+#tablaAdmin{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#tablaAdmin th, #tablaAdmin td{
+    width: 200px;
+    height: 40px;
+}
+
+#nuevoAdmin button{
+    margin-left: 1%;
+    margin-top: 2%;
+    background-color: rgb(129, 221, 129);
+}
+
+#btnEdit{
+    background-color: rgb(216, 165, 99);
+}
+
+#btnRojo{
+    background-color: rgb(216, 106, 106);
+}
+
+#tablaAdmin th.yellow{
+    padding-left: 2%;
+}
+
+/* Ventana modal login */
+
+.modal{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    padding: 1%;
+    border: 1px solid black;
+    text-align: center;
+    position: absolute;
+    display: block;
+    width: 200px;
+}
+
+#modalPass{
+    top: 25%;
+    left: 43%;
+}
+
+#modalRecu{
+    top: 37%;
+    left: 43%;
+}
+
+@media screen and (device-width: 1280px) {
+    
+    #header, #footer, #secciones, hr{
+        width: 1800px;
+    }
+}
