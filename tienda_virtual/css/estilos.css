@@ -1,0 +1,337 @@
+body, #header{
+    padding: 0%;
+    margin: 0%;
+}
+
+.blanco{
+    color:white;
+}
+
+.rojo{
+    color:red;
+}
+/*========================================================================== */
+/*                          PÁGINA PRINCIPAL                                 */
+/*========================================================================== */
+
+/*============================ CABECERA =====================================*/
+
+#header{
+    background-color: black;
+}
+
+#header table{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* logo amasón y carrito */
+#logoCabecera, #carrito, #logoLogin, #logoRegistrar{
+    width: 100px;
+}
+
+/* barra buscar */
+#barraBuscar{
+   display: flex;
+}
+
+#barraBuscar input{
+    width: 1000px;
+    height: 30px;
+}
+
+#lupa{
+    width: 33px;
+    height: 28px; 
+}
+
+#buscar{
+    background-color: rgb(216, 165, 99);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: 45px;
+    height: 31px;  
+}
+
+#contendorCarrito{
+    text-align: center;
+}
+
+/* botones */
+button#btnCarrito{
+    width: 100px;
+    height: 100px;
+    color: rgba(255, 255, 255, 0);
+    background-color:rgba(255, 255, 255, 0);
+    border-radius: 10%;
+    border: rgba(255, 255, 255, 0);
+}
+button#btnCarrito:hover{
+    border: 1px solid white;
+}
+
+/*==================== BODY =========================*/
+
+#tablaProd, #secciones, #tablaDetalle, #tablaCarrito{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.imgProd{
+    width: 200px;
+    height: 200px;
+}
+
+.lineas{
+    border: 1px solid gray;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+
+
+.anyadirCarrito{
+    background-color: rgb(240, 195, 113);
+}
+
+
+/*==================== FOOTER =========================*/
+#footer{
+    height: 200px;
+    color:white;
+    background-color: black;
+}
+
+#footer table {
+    width: 100%;
+    text-align: left;
+    padding-left: 10%;
+}
+  
+#footer td {
+    border-color: white;
+    width: 25%;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#logoFooter{
+    margin: auto;
+    width: 100px;
+}
+
+#footer a, #footer a:visited{
+    color: white;
+}
+
+/*========================================================================== */
+/*                          VALIDAR  / REGISTRAR                             */
+/*========================================================================== */
+
+
+/*==================== FORM LOGIN =========================*/
+
+#lineaLogin, #eresNuevo, #irRegist, #centraDiv{
+    text-align: center;
+}
+
+#contenedorLogin, #contenedorRegistrar{
+    width: 400px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#loginTexto{
+    width: 300px;
+    height: 200px;
+    text-align: justify;
+    margin: 3%;
+    padding-left: 6%;
+}
+
+#lineaLogin, #lineaRegistrar{
+    border: 1px solid black;
+}
+
+#lineaLogin form{
+    margin-top: 4%;
+}
+
+#lineaLogin form buttonS{
+    background-color: rgb(216, 165, 99);
+}
+
+#eresNuevo{
+    color:rgb(94, 94, 94)
+}
+
+#irRegist{
+    width:100px;
+    background-color: lightgray;
+    margin: auto;
+}
+#irRegist a:link{
+    color:black;
+}
+
+#lineaRegistrar{
+    text-align: left;
+    padding-left: 4%;
+    padding-bottom: 4%;
+}
+
+#linkVolver{
+    margin-left: 50%;
+}
+
+#mensajeError{
+    width: 200px;
+    margin:auto;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    padding: 1%;
+    border: 1px solid black;
+    text-align: center;
+    animation: fadeOut 6s;
+    animation-iteration-count: 1;
+    opacity: 0%;
+}
+
+/*========================================================================== */
+/*                          DETALLE                                          */
+/*========================================================================== */
+
+#tablaDetalle{
+    text-align: center;
+    height: 700px;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+.imgDetalle{
+    width: 300px;
+    transition: transform .2s; 
+}
+
+.imgDetalle:hover{
+    transform: scale(1.5); 
+}
+
+/*========================================================================== */
+/*                          VER CARRITO                                      */
+/*========================================================================== */
+
+#contenedorVerCarrito{
+    text-align: center;
+    height: 700px;
+    margin: auto;
+}
+
+#tablaCarrito{
+    width:700px;
+    margin: auto;
+}
+
+#tablaCarrito td.lineaTD, #tablaCarrito th.lineaTD{
+    border: 1px solid black;
+    text-align: right;
+    padding-right: 1%;
+}
+
+#tablaCarrito th.lineaTD{
+    background-color: rgb(204, 204, 204);
+}
+
+#mensajeBueno{
+    width: 200px;
+    margin:auto;
+    color: black;
+    background-color: rgb(76, 197, 28);
+    padding: 1%;
+    border: 1px solid black;
+    text-align: center;
+    animation: fadeOut 8s;
+    animation-iteration-count: 1;
+    opacity: 0%;
+}
+
+/*========================================================================== */
+/*                          CONFIRMAR                                        */
+/*========================================================================== */
+
+.alineaTablaConfirm{
+    text-align: center;
+    margin: auto;
+}
+
+.tablaConfirm{
+    text-align: right;
+    margin:auto;
+    width: 700px;
+}
+
+.tablaConfirm th{
+    background-color: black;
+    color: white;
+}
+
+.tablaConfirm th, .tablaConfirm td{
+    border: 1px solid black;
+    padding-right: 2%;
+}
+
+#lineaConfirm{
+    width: 500px;
+    border: 2px solid black;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: rgb(240, 209, 152);
+    padding: 2%;
+
+}
+
+#confirmarPago{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+#imgConfirmar{
+    width: 150px;
+}
+
+
+/*========================================================================== */
+/*                          CAMBIAR DIRECCIÓN                                */
+/*========================================================================== */
+
+
+#contenedorDirEntrega{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(221, 185, 119);
+    border: 1px solid orange;
+    margin: auto;
+    margin-top: 5%;
+    padding-top: 4%;
+}
+
+/*========================================================================== */
+/*                          Avisos Legales                                   */
+/*========================================================================== */
+
+#legal{
+    text-align: justify;
+    padding: 5%;
+}
+
+
+
+/* Keyframes y esas cosas */
+
+@keyframes fadeOut{
+    100% { opacity:0;}
+    0% {opacity:1;}
+}
