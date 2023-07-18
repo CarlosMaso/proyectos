@@ -1,0 +1,35 @@
+<div id="contenedorLogin">
+    <img id='logoLogin' src="../../img/logo2.png" alt="Amasón">
+
+    <div id="lineaLogin">
+
+        <h1>Iniciar Sesión</h1>
+
+        <form action="validar.php" method="POST">
+            <label for="usuario">Usuario: </label><input name='usu' type="text"><br>
+            <label for="password">Pasword: </label><input type="password" name="pass"><br>
+            <br>
+            <button name="iniciar" type="submit">iniciar sesión</button>
+        </form>
+
+        <div id="loginTexto">
+            <p>
+                Al identificarte aceptas nuestras <a href='../vistas/avisoLegalCondiciones.php'>Condiciones de uso y venta.</a>
+                Consulta nuestro <a href='../vistas/avisoLegalPrivacidad.php'>Aviso de privacidad</a> y nuestras <a href='../vistas/avisoLegalCookies.php'>Aviso de cookies</a>
+                y <a href='../vistas/avisoLegalPublicidad.php'>Aviso sobre publicidad basada en los intereses del usuario.</a>
+            </p>
+            <br>
+            <a id='linkVolver' href="../controladores/principal.php">Volver</a>
+        </div>
+    </div>
+
+    <br>
+    <div id="eresNuevo">
+        <p>________  ¿Eres nuevo en Amasón?  _______</p>
+    </div>
+    <br>
+    <div id='irRegist'>
+        <a href="../controladores/registrarse.php">Registrarse</a>
+    </div>
+</div>
+    
