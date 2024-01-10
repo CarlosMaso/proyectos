@@ -1,1 +1,4 @@
-Aquí he dejado un crud que he hecho con Java, se conecta a una base de datos llamada java (dentro de la cual está la tabla alumnos). Si se descarga y se intenta usar a través de un IDE, acordaros de mirar el puerto, dentro de la conexión, teneis que poner el vuestro.
+Aquí he dejado un crud que he hecho con Java, se conecta a una base de datos llamada java (dentro de la cual está la tabla alumnos). 
+Si se descarga y se intenta usar a través de un IDE, acordaros de mirar el puerto, dentro de la conexión, teneis que poner el vuestro.
+
+También he puesto una carpeta con la base de datos, por si quereís hacer pruebas a través del localhost.
